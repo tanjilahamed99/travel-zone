@@ -32,7 +32,7 @@ const Navbar = () => {
                     {
                         ulLink
                     }
-                    <button className="btn bg-[#F9A51A] border-none">login</button>
+                    <Link to={'/login'}> <button className="btn bg-[#F9A51A] border-none">login</button></Link>
                 </ul>
             </div>
         </div>

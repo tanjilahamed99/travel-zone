@@ -17,10 +17,12 @@ const Home = () => {
                     <p className="text-white my-5">Cox Bazar is a city, fishing port, tourism centre
                         <br /> and district headquarters in southeastern Bangladesh.
                         It is <br /> famous mostly for its long natural sandy beach, and it ...</p>
-                    <button className="btn bg-[#F9A51A] border-none">
-                        <Link to={'/detail'}> Booking Now</Link>
-                        <FaArrowRight></FaArrowRight>
-                    </button>
+                    <Link to={'/detail'}>
+                        <button className="btn bg-[#F9A51A] border-none">
+                            Booking Now
+                            <FaArrowRight></FaArrowRight>
+                        </button>
+                    </Link>
                 </div>
                 <div className="">
                     <div className="carousel carousel-end rounded-box gap-5">

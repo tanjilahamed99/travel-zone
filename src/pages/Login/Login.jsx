@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import { FaFacebook, FaGoogle } from "react-icons/fa";
 
 const Login = () => {
+
+    cosbt
+
     return (
         <div className="p-10">
             <div className="mt-10 w-1/2 mx-auto p-10 border-[#ABABAB] border-2 bg-white">
@@ -36,7 +39,7 @@ const Login = () => {
                             <div className="form-control mt-6">
                                 <button className="btn bg-[#F9A51A]">Login</button>
                             </div>
-                            <p className="text-center mt-3 font-medium">Do not have an account? <Link className="text-[#F9A51A]">Create an account</Link></p>
+                            <p className="text-center mt-3 font-medium">Do not have an account? <Link to={'/registration'} className="text-[#F9A51A]">Create an account</Link></p>
                         </form>
                     </div>
                 </div>
